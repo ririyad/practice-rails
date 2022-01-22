@@ -13,7 +13,7 @@
 ---
 - for dev and test & env, sqlite3 database and for prod, prostgresql is used (see `config/database.yml`)
 
-## Rails Commands
+### Rails Commands
 ---
 - to create scffolded model: `rails generate scaffold <Model name in plural form> <attr1:data_type> <attr2:data_type>...<attrn, data_type>`
 - open console: `rails console`
