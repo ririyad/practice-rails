@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Deployment
 
-Things you may want to cover:
+### Deployment at Heroku
+---
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Needs the `pg` gem as heroku uses PostgreSQL
+- Install heroku cli
+- from command line, run `heroku login -i`, enter `email` and then enter authorization token (found at `Account settings -> Applications`) as `password`
