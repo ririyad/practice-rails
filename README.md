@@ -27,3 +27,10 @@ Following the tab;e
 |`$ rails generate`|`$ rails g`|
 |`$ rails test`|`$ rails t`|
 |`$ bundle install`|`$ bundle`|
+
+- Creating controller, e.g `rails generate controller StaticPages home help`, where `StaticPages` is the controller and `home` and `help` are action methods
+- Creating model, e.g `rails generate model User name:string email:string`, where `User` is the model and `name`, `email` are the attributes
+- Destroy controller/model, e.g `rails destroy  controller StaticPages home help`/ `rails destroy model User`
+- DB migration, e.g `rails db:migrate`
+- We can undo a single migration step using, `rails db:rollback`
+- To go all the way back to the beginning, we can use, `rails db:migrate VERSION=0`
