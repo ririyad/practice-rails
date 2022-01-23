@@ -34,3 +34,8 @@ Following the tab;e
 - DB migration, e.g `rails db:migrate`
 - We can undo a single migration step using, `rails db:rollback`
 - To go all the way back to the beginning, we can use, `rails db:migrate VERSION=0`
+
+### Project Setup to Run with Cloud based IDE
+---
+- If the ruby version is `<3.0.0`, update ruby with `rbenv`
+- From command line, run, `bin/rails server`
